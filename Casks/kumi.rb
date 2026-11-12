@@ -1,9 +1,9 @@
 cask "kumi" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.3"
-  sha256 arm:   "205fa81cfc27d17d2e469bc1bf958f8096b530e589b27d8ba0403d3bdbe79a9b",
-         intel: "498ce0f6d8d888fa162508fc2de0554803b468490562a7f1a23cc31a00f9e094"
+  version "0.1.6"
+  sha256 arm:   "038bb0cd2adcad51d0a228a18717623aef41e498addf9c838084dce9a3d0b223",
+         intel: "267a35dad227c4f1fcc9732389b1c3237047573a126108897038e504a82a7c08"
 
   url "https://github.com/tvcsantos/kumi/releases/download/v#{version}/Kumi-#{version}-#{arch}.dmg"
   name "Kumi"
